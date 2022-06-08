@@ -1,0 +1,7 @@
+n = int(input('Digite um numero: '))
+num = str(n)
+print('analisando o seu numero...')
+print('O seu numero tera {} unidades'.format(num[3]))
+print('O seu numero tera {} dezenas '.format(num[2]))
+print('O seu numero tera {} centenas'.format(num[1]))
+print('O seu numero tera {} milhar '.format(num[0]))
